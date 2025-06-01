@@ -1,18 +1,21 @@
-## Getting Started
+## Estructura de Datos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Hola, estudiantes 👋,
 
-## Folder Structure
+Es un gusto darles la bienvenida a este espacio donde exploraremos juntos las bases fundamentales que les permitirán organizar, almacenar y manipular información de manera eficiente. Durante este curso, aprenderemos a implementar y aplicar estructuras de datos clave utilizando Java como nuestro lenguaje principal.
 
-The workspace contains two folders by default, where:
+## ¿Qué pueden esperar de esta clase?
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- ✅ Aprendizaje práctico con ejercicios y programación en cada sesión.
+- ✅ Uso de Java para implementar listas, pilas, colas, árboles y más.
+- ✅ Comprensión del análisis de eficiencia (Big-O).
+- ✅ Espacio para dudas, participación activa y aprendizaje colaborativo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Consejos para aprovechar al máximo la materia 
 
-## Dependency Management
+- 🔸 Practiquen constantemente, la programación se aprende haciendo.
+- 🔸 No duden en hacer preguntas durante las clases o por este medio.
+- 🔸 Trabajen en equipo y compartan ideas, ¡todos aprendemos juntos!
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Revisen los materiales iniciales y estén atentos a la primera actividad. ¡Estoy emocionada de acompañarlos en este viaje por el fascinante mundo de las estructuras de datos!
