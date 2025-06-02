@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class App {
@@ -32,6 +33,19 @@ public class App {
 
         while (!platos.isEmpty()){
             System.out.println("Lavando: " + platos.pop());
+        }
+
+        //Cola (turno en el banco)
+        System.out.println("\n====== Cola ======");
+        Queue<String> fila = new LinkedList<>();
+
+        fila.add("Cliente 1");
+        fila.add("Cliente 2");
+        fila.add("Cliente 3");
+
+        while (!fila.isEmpty()) {
+            System.out.println("Atendiendo: " + fila.poll());
+            //System.out.println("Atendiendo: " + fila);
         }
     }
 }
