@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -47,5 +48,26 @@ public class App {
             System.out.println("Atendiendo: " + fila.poll());
             //System.out.println("Atendiendo: " + fila);
         }
+
+        //HashMap (tabla hashmap / diccionario)
+        System.out.println("\n====== HashMap ======");
+        HashMap<String, String> diccionario = new HashMap<>();
+
+        diccionario.put("gato", "cat");
+        diccionario.put("perro", "dog");
+        diccionario.put("casa", "house");
+
+        System.out.println("Traducción de 'gato': " + diccionario.get("gato"));
+        System.out.println("Traducción de 'perro': " + diccionario.get("perro"));
+        System.out.println("Traducción de 'casa': " + diccionario.get("casa"));
+
+        //Arbol binario (organización jerárquica simple - recursiva)
+        //Ejemplo conceptual usando clases anidadas
+        System.out.println("\n====== Árbol binario ======");
+        NodoBinario raiz = new NodoBinario("Carpeta Raiz");
+        raiz.hijo = new NodoBinario("Subcarpeta 1");
+        raiz.hijo.hijo = new NodoBinario("Subcarpeta 2");
+
+        raiz.imprimir();
     }
 }
