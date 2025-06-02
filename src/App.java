@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -16,9 +17,21 @@ public class App {
         correos.add("correo_ejemplo3@correo.com");
         correos.add("correo_ejemplo4@correo.com");
 
-        System.out.println("====== Lista enlazada ======");
+        System.out.println("\n====== Lista enlazada ======");
         for (String correo : correos){
             System.out.println("Reenviado a: " + correo);
+        }
+
+        //Pila de platos
+        System.out.println("\n====== Pila ======");
+        Stack<String> platos = new Stack<>();
+
+        platos.push("plato 1");
+        platos.push("plato 2");
+        platos.push("plato 3");
+
+        while (!platos.isEmpty()){
+            System.out.println("Lavando: " + platos.pop());
         }
     }
 }
