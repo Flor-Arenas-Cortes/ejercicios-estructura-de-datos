@@ -69,5 +69,21 @@ public class App {
         raiz.hijo.hijo = new NodoBinario("Subcarpeta 2");
 
         raiz.imprimir();
+
+        //Grafo (red de amigos como matriz de adyacencia)
+        System.out.println("\n====== Grafo ======");
+        int [][] grafo = {
+            {0, 1, 0, 1}, // nodo 0 está conectado con 1 y 3
+            {1, 0, 1, 0}, // nodo 1 con 0 y 2
+            {0, 1, 0, 1}, // nodo 2 con 1 y 3
+            {1, 0, 1, 0}  // nodo 3 con 0 y 2
+        };
+
+        System.out.println("Nodo 0 conectado con: ");
+        for (int i = 0; i < grafo[0].length;i++){
+            if (grafo[0][i] == 1) {
+                System.out.println("Nodo " + i);
+            }
+        }
     }
 }
