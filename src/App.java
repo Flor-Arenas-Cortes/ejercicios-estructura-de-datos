@@ -95,9 +95,29 @@ public class App {
         System.out.println("Tenemos la siguiente lista de números");
         System.out.println("\nLa lista de números constantes que estan acomodandonse: {10, 20, 30, 40}");
         System.out.println("Recuerden que empezamos con las siguientes posiciones: {0, 1, 2, 3}\n");
-        System.out.println(numerosConstantes[0]);
-        System.out.println(numerosConstantes[1]);
-        System.out.println(numerosConstantes[2]);
-        System.out.println(numerosConstantes[3]);
+        System.out.println("Posición 0: " + numerosConstantes[0]); //siempre tarda lo mismo
+        System.out.println("Posición 1: " + numerosConstantes[1]);
+        System.out.println("Posición 2: " + numerosConstantes[2]);
+        System.out.println("Posición 3: " + numerosConstantes[3]);
+
+        // O(n) - Recorrido Lineal
+        System.out.println("\n====== O(1) - Acceso Constantes ======");
+        int [] numerosLineales = {5, 9, 2, 7, 3};
+
+        
+        System.out.println("Tenemos la siguiente lista de números");
+        System.out.println("\nLa lista de números constantes que estan acomodandonse: {5, 9, 2, 7, 3}");
+        System.out.println("Recuerden que empezamos con las siguientes posiciones: {0, 1, 2, 3, 4}\n");
+        
+        /*
+        //opción 1
+        for(int n : numerosLineales){
+            System.out.println(n); //recorre todos, uno por uno
+        }*/
+
+        //opción 2
+        for (int i = 0; i < numerosLineales.length; i++) {
+            System.out.println("Posición " + i + ": " + numerosLineales[i]); // Muestra el índice y el valor
+        }
     }
 }
