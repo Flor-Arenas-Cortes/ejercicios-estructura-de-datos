@@ -85,5 +85,19 @@ public class App {
                 System.out.println("Nodo " + i);
             }
         }
+
+        //Ejemplos de Big-O
+        
+        // O(1) - Acceso Constantes
+        System.out.println("\n====== O(1) - Acceso Constantes ======");
+        int [] numerosConstantes = {10, 20, 30, 40};
+        
+        System.out.println("Tenemos la siguiente lista de números");
+        System.out.println("\nLa lista de números constantes que estan acomodandonse: {10, 20, 30, 40}");
+        System.out.println("Recuerden que empezamos con las siguientes posiciones: {0, 1, 2, 3}\n");
+        System.out.println(numerosConstantes[0]);
+        System.out.println(numerosConstantes[1]);
+        System.out.println(numerosConstantes[2]);
+        System.out.println(numerosConstantes[3]);
     }
 }
