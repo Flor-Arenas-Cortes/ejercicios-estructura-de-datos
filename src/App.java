@@ -1,6 +1,8 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Scanner;
 import java.util.Stack;
 
 public class App {
@@ -119,5 +121,34 @@ public class App {
         for (int i = 0; i < numerosLineales.length; i++) {
             System.out.println("Posición " + i + ": " + numerosLineales[i]); // Muestra el índice y el valor
         }
+
+        // O(log n) - Búsqueda binaria (en arreglo ordenado)
+        System.out.println("\n====== O(log n) - Búsqueda binaria ======");
+        int [] datosBinarios = {1, 3, 5, 7, 9, 11};
+
+        System.out.println("Tenemos la siguiente lista de números");
+        System.out.println("\nLa lista de números constantes que estan acomodandonse: {1, 3, 5, 7, 9, 11}");
+        System.out.println("Recuerden que empezamos con las siguientes posiciones: {0, 1, 2, 3, 4, 5}\n");
+
+        /* Primera Opción 
+        int index = Arrays.binarySearch(datosBinarios, 7);
+        System.out.println("Encontrando en posición: " + index);
+        */
+
+        // Segunda opción
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Por favor, ingrese un número para buscar en el arreglo: ");
+        int numero = scanner.nextInt();
+        
+        int index = Arrays.binarySearch(datosBinarios, numero);
+        
+        if (index >= 0) {
+            System.out.println("El número " + numero + " se encuentra en la posición: " + index);
+        } else {
+            System.out.println("El número " + numero + " no se encuentra en el arreglo.");
+        }
+        
+        scanner.close();
     }
 }
