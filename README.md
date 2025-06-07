@@ -18,4 +18,4 @@ Es un gusto darles la bienvenida a este espacio donde exploraremos juntos las ba
 - 🔸 No duden en hacer preguntas durante las clases o por este medio.
 - 🔸 Trabajen en equipo y compartan ideas, ¡todos aprendemos juntos!
 
-## Revisen los materiales iniciales y estén atentos a la primera actividad. ¡Estoy emocionada de acompañarlos en este viaje por el fascinante mundo de las estructuras de datos!
+ Revisen los materiales iniciales y estén atentos a la primera actividad. ¡Estoy emocionada de acompañarlos en este viaje por el fascinante mundo de las estructuras de datos!
